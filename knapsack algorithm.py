@@ -3,7 +3,7 @@ import pandas as pd
 import xlsxwriter
 
 
-player_input = pd.read_excel('/Users/patrickcullinane/PycharmProjects/fantasy_football/test_team.xlsx')
+player_input = pd.read_excel('/Users/fantasy_football/test_team.xlsx')
 
 player_input = player_input[0:3]
 
